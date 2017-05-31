@@ -1,6 +1,6 @@
 # Quiz
 
-Udacity Android Final Project 1 (beginner)
+Udacity Android Final Project 2 (beginner)
 
 ##Content
 - bin : compiled binary
