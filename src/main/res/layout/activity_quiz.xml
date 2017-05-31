@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      xmlns:tools="http://schemas.android.com/tools"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:focusable="true"
+                      android:focusableInTouchMode="true"
+                      android:orientation="vertical"
+                      tools:context="udacity.androidquiz.Quiz">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. A soul is composed of appetite, spirit, and what else?"
+                    android:textSize="20sp"/>
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/radioGroup1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                <RadioButton
+                        android:id="@+id/radioButton1a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Mind"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton1b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Logic"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton1c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Body"/>
+            </RadioGroup>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. What event did Emperor Nero add to the Olympics so he could participate?"
+                    android:textSize="20sp"/>
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/radioGroup2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                <RadioButton
+                        android:id="@+id/radioButton2a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="singing"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton2b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="dancing"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton2c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="running"/>
+            </RadioGroup>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. What do people generally call a woman who has a charm that sometimes leads men to their doom?"
+                    android:textSize="20sp"/>
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/radioGroup3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                <RadioButton
+                        android:id="@+id/radioButton3a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="a seductress"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton3b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="a waitress"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton3c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="a femme fatale"/>
+            </RadioGroup>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. What takes the visual information from your eyes and processes it?"
+                    android:textSize="20sp"/>
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/radioGroup4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                <RadioButton
+                        android:id="@+id/radioButton4a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="the finger"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton4b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="the brain"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton4c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="the heart"/>
+            </RadioGroup>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. What is the name of the light-producing substance in fireflies?"
+                    android:textSize="20sp"/>
+
+            <EditText
+                    android:id="@+id/editText5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. Who was the pirate who said that he hid his treasure in a certain place just before he was executed?"
+                    android:textSize="20sp"/>
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/radioGroup6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                <RadioButton
+                        android:id="@+id/radioButton6a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Henry Morgan"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton6b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="William Kidd"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton6c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Edward Teach"/>
+            </RadioGroup>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7. We have a saying in Japanese: a skilled hawk hides its talons. What hides its claws in English?"
+                    android:textSize="20sp"/>
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/radioGroup7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                <RadioButton
+                        android:id="@+id/radioButton7a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="dog"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton7b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="rabbit"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton7c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="cat"/>
+            </RadioGroup>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8. The word 'robot' did not come from English. So, what country did it come from?"
+                    android:textSize="20sp"/>
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/radioGroup8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                <RadioButton
+                        android:id="@+id/radioButton8a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Czechoslovakia"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton8b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Slovakia"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton8c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Croatia"/>
+            </RadioGroup>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9. Which suit of cards represents the Holy Grail?"
+                    android:textSize="20sp"/>
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/radioGroup9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                <RadioButton
+                        android:id="@+id/radioButton9a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spades"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton9b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Hearts"/>
+
+                <RadioButton
+                        android:id="@+id/radioButton9c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Diamonds"/>
+            </RadioGroup>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10. Which country refers to a person who controls politics behind the scenes as a 'prime minister in black'?"
+                    android:textSize="20sp"/>
+
+            <EditText
+                    android:id="@+id/editText10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Submit"
+                    android:text="Submit"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</layout>
